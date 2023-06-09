@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Emp_detailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/radios"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employed id :"
+            android:id="@+id/em_id"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......"
+            android:id="@+id/en_id"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/em_id"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:id="@+id/en_na"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/em_id"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......"
+            android:id="@+id/en_name"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/em_id"
+            android:layout_toRightOf="@+id/en_na"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:id="@+id/en_emil"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/en_na"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......"
+            android:id="@+id/en_mail"
+            android:autoLink="email"
+            android:linksClickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/en_name"
+            android:layout_toRightOf="@+id/en_emil"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address :"
+            android:id="@+id/en_Address"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/en_emil"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......"
+            android:id="@+id/en_add"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/en_mail"
+            android:layout_toRightOf="@+id/en_Address"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone : "
+            android:id="@+id/phone"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/en_add"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="....."
+            android:id="@+id/phone_em"
+            android:autoLink="phone"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/phone"
+            android:layout_below="@id/en_add"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/radios"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company details :"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Companyname"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="....."
+            android:layout_below="@id/Companyname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/Company"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="....."
+            android:layout_below="@id/Company"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/website"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
